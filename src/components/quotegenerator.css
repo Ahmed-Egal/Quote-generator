@@ -1,0 +1,72 @@
+.body{
+    background-color: aqua;
+}
+
+.content{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.container p{
+   display: flex;
+   justify-content: flex-end; 
+}
+
+.quote{
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+.author{
+    font-size: 16px;
+}
+
+.icons-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    
+}
+.icons{
+    display: flex;
+    align-items: flex-start;
+
+}
+.button{
+    display: flex;
+    align-items: flex-end;  
+}
+.icons img {
+    max-width: 40px;
+    height: 20px;
+    display: flex;
+    justify-content: flex-start;
+    padding-right: 20px;
+}
+.button button{
+    background-color: rgb(228, 209, 200);
+    font-weight: 600;
+    font-size: 20px;
+}
+.image-link {
+    text-decoration: none; /* Remove underlines from links */
+  }
+  
+  .image {
+    transition: transform 0.1s; /* Add a smooth transition effect */
+  }
+  
+  .image-link:hover .image {
+    transform: scale(2.2); /* Scale up the image on hover */
+  }
+  
