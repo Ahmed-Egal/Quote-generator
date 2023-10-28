@@ -45,6 +45,7 @@
 .button{
     display: flex;
     align-items: flex-end;  
+    
 }
 .icons img {
     max-width: 40px;
@@ -53,10 +54,15 @@
     justify-content: flex-start;
     padding-right: 20px;
 }
+
+
 .button button{
     background-color: rgb(228, 209, 200);
-    font-weight: 600;
     font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-top-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    padding: 12px;
 }
 .image-link {
     text-decoration: none; /* Remove underlines from links */
